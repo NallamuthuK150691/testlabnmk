@@ -1,7 +1,9 @@
 name: First_Action
 on: push
 jobs:
-  runs-on: ubuntu-latest
-  steps:
-    -run: echo "first git action"
+  fist-action:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo Program
+        run: echo "first git action"
     
