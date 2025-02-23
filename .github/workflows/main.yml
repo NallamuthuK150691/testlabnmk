@@ -1,5 +1,6 @@
 name: First_Action
-on: push
+on:
+  workflow_dispatch
 jobs:
   fist-action:
     runs-on: ubuntu-latest
